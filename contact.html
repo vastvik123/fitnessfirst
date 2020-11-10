@@ -41,48 +41,61 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
+          <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#equipments">Equipments</a>
+          <a class="nav-link" href="index.html#equipments">Equipments</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link active" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 </div>
-<div id="main">
+
+ <div id="contact">
+  <h1>Contact us</h1>
+  <p><u>Visit us at:</u></p>
+  <p>Unit 302-306, 3rd Floor, <br>DLF South Point Mall,<br> Sector 53, DLF Phase-V
+  Golf Course Road<br>
+  Gurgaon<br>
+  122009<br></p>
+  <img src="https://www.fitnessfirst.net.in/sites/default/files/staticmap-gurgaon.png">
   <br>
-<p>Best place to start your Fitness Journey!</p>
-</div>
-<hr>
-<div class="container" id="equipments">
-    <h1>Equipments</h1>
-    <div class="row">
+<p>Ask us a query?!</p>
+ <form>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
+    </div>
 
-     <div class="col-md-4">
-       <p class="title">Weights</p>
-       <img src="weights.jpg">
-      </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+    </div>
 
-      <div class="col-md-4">
-       <p class="title">Treadmills</p>
-       <img src="treadmills.jpg">
-      </div>
+    <div class="form-group">
+      <label for="mobile">Mobile:</label>
+      <input type="text" class="form-control" id="mobile" placeholder="Enter mobile number" name="mobile" required>
+    </div>
 
-      <div class="col-md-4">
-        <p class="title">Machines</p>
-        <img src="machines.jpg">
-      </div>
-   </div>
-  </div>
+     <div class="form-group">
+      <label for="query">Query:</label><br>
+      <input type="text" class="form-control" id="query" placeholder="Ask a query here...." name="query" required>
+    </div>
+    <div class="form-group">
+      <input type="submit" class="form-control">
+    </div>
 
+
+</form>
+
+ </div>
  
 </body>
 </html>
